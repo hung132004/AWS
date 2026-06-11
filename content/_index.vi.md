@@ -5,11 +5,11 @@ description = "FCJ Cloud Journey Internship Report"
 
 # Báo cáo Thực tập - FCJ Cloud Journey
 
-&emsp; **Họ tên:** A Nguyễn Văn
+&emsp; **Họ tên:** Nguyễn Văn Thanh Hùng
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** Hungtheng2004@gmail.com
 
-&emsp; **Trường:** Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh
+&emsp; **Trường:** Trường Đại học công nghệ - Hutech Thành phố Hồ Chí Minh
 
 &emsp; **Ngành:** Công nghệ Thông tin
 
@@ -21,7 +21,7 @@ description = "FCJ Cloud Journey Internship Report"
 
 &emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+![Ảnh đại diện của bạn](/AWS/images/avatar.png)
 
 ### Nội dung báo cáo
 

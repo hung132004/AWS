@@ -5,9 +5,9 @@ description = "FCJ Cloud Journey Internship Report"
 
 # Internship Report - FCJ Cloud Journey
 
-&emsp; **Name:** A Nguyen Van
+&emsp; **Name:** Nguyen Van Thanh Hung
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** Hungtheng2004@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology and Education
 
@@ -21,7 +21,7 @@ description = "FCJ Cloud Journey Internship Report"
 
 &emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/AWS/images/avatar.png)
 
 ### Report Content
 
