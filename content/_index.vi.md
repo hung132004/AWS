@@ -13,7 +13,7 @@ description = "FCJ Cloud Journey Internship Report"
 
 &emsp; **Ngành:** Công nghệ Thông tin
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** 22DTHE3
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 

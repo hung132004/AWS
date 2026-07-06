@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Translated Blogs
+
 
 1. [Blog 1](3.1-Blog1/)
 2. [Blog 2](3.2-Blog2/)

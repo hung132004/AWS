@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-# Worklog
 
 1. [Week 1](1.1-Week1/)
 2. [Week 2](1.2-Week2/)

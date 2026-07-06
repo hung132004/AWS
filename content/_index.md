@@ -13,7 +13,7 @@ description = "FCJ Cloud Journey Internship Report"
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHE3
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 

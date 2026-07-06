@@ -6,6 +6,6 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-# Đề xuất
+
 
 Phần này chứa đề xuất thực tập và các tài liệu liên quan.

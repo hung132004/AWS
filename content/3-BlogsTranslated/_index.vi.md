@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Bài viết được dịch
+
 
 1. [Bài viết 1](3.1-Blog1/)
 2. [Bài viết 2](3.2-Blog2/)

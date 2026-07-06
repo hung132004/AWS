@@ -5,19 +5,19 @@ weight: 1
 chapter: false
 ---
 
-# Báo cáo thực tập
+
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
+&emsp; **Họ và tên:** Nguyễn Văn Thanh Hùng
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Số điện thoại:** 0336807167
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** hungtheng2004@gmail.com
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** Trường Đại học công nghệ - Hutech Thành phố Hồ Chí Minh
 
 &emsp; **Ngành:** Công nghệ thông tin
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** 22DTHE3
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+![Ảnh đại diện của bạn](/AWS/images/avatar.png)
 
 
 
