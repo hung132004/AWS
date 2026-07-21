@@ -6,12 +6,16 @@ chapter: false
 pre: " <b> 1.1 </b> "
 ---
 
-# Mục tiêu Tuần 1:
+# Tóm tắt Tuần 1
+
+Trong tuần này tôi tập trung vào làm quen đội nhóm, quy định thực tập và các khái niệm AWS cơ bản. Tôi học cách sử dụng AWS Console và CLI, đồng thời bắt đầu nhận diện các nhóm dịch vụ đám mây.
+
+## Mục tiêu Tuần 1
 
 - Kết nối và làm quen với các thành viên của First Cloud AI Journey
 - Hiểu biết về các dịch vụ AWS cơ bản, cách sử dụng console & CLI
 
-## Các nhiệm vụ cần hoàn thành trong tuần:
+## Các nhiệm vụ cần hoàn thành trong tuần
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 |------|----------|--------------|-----------------|------------------|
