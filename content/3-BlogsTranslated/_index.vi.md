@@ -6,11 +6,22 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
+# Bài viết được dịch
 
+Phần này chứa các bài blog thực tập đã được dịch, gồm ba bài tập trung vào việc thiết lập tài khoản AWS, các dịch vụ core và phát triển serverless.
 
-1. [Bài viết 1](3.1-Blog1/)
-2. [Bài viết 2](3.2-Blog2/)
-3. [Bài viết 3](3.3-Blog3/)
-4. [Bài viết 4](3.4-Blog4/)
-5. [Bài viết 5](3.5-Blog5/)
-6. [Bài viết 6](3.6-Blog6/)
+## Bài viết 1 — AWS account setup, IAM và kiểm soát chi phí
+Đánh giá thực tế về các bước sử dụng Console AWS, theo dõi chi phí và quản lý danh tính.
+
+[Đọc chi tiết](3.1-Blog1/)
+
+## Bài viết 2 — Thực hành các dịch vụ AWS core: EC2, S3, VPC và Database
+Những chia sẻ từ việc làm quen với compute, lưu trữ, mạng và dịch vụ cơ sở dữ liệu quản lý.
+
+[Đọc chi tiết](3.2-Blog2/)
+
+## Bài viết 3 — Serverless, authentication, monitoring và security trên AWS
+Tổng quan về luồng serverless, Cognito, DynamoDB, S3 và CloudWatch.
+
+[Đọc chi tiết](3.3-Blog3/)
+
