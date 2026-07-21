@@ -6,16 +6,11 @@ chapter: false
 pre: " <b> 1.9 </b> "
 ---
 
-# Mục tiêu Tuần 9:
+# Tuần 9
 
-- Tìm hiểu CloudWatch monitoring và logging
-- Cấu hình alarms và dashboards
-- Thực hành phân tích hiệu suất
+**Ngày:** 15/06/2026 – 21/06/2026
 
-## Các nhiệm vụ cần hoàn thành trong tuần:
+**Nội dung:**
 
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|------|----------|--------------|-----------------|------------------|
-| 1 | Thiết lập CloudWatch logs và metrics | 15/06/2026 | 15/06/2026 | Hướng dẫn CloudWatch |
-| 2 | Tạo dashboards và cấu hình alarms | 16/06/2026 | 18/06/2026 | AWS Docs |
-| 3-4 | Cấu hình SNS notifications<br>Kiểm tra hệ thống cảnh báo | 19/06/2026 | 21/06/2026 | Best Practices Monitoring |
+- Vẽ sơ đồ AWS bằng Draw.io.
+- Tìm hiểu CloudWatch và SNS.

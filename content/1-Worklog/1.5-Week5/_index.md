@@ -6,16 +6,12 @@ chapter: false
 pre: " <b> 1.5 </b> "
 ---
 
-# Week 5 Objectives:
+# Week 5
 
-- Understand IAM roles and policies
-- Practice applying least privilege principle
-- Configure cross-account access
+**Date:** 18/05/2026 – 24/05/2026
 
-## Tasks to be carried out this week:
+**Content:**
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-|-----|------|------------|-----------------|-------------------|
-| 1 | Create IAM users and groups | 18/05/2026 | 18/05/2026 | IAM Guide |
-| 2 | Attach policies and configure permissions | 19/05/2026 | 21/05/2026 | AWS Docs |
-| 3-4 | Create and test IAM roles<br>Verify least privilege implementation | 22/05/2026 | 24/05/2026 | IAM Best Practices |
+- Tìm hiểu Amazon VPC.
+- Cấu hình Subnet, Route Table và Internet Gateway.
+- Thiết lập Security Group và Network ACL.

@@ -6,16 +6,12 @@ chapter: false
 pre: " <b> 1.4 </b> "
 ---
 
-# Week 4 Objectives:
+# Week 4
 
-- Create and configure VPC (Virtual Private Cloud)
-- Understand subnets, route tables, and NAT gateways
-- Practice network architecture design
+**Date:** 11/05/2026 – 17/05/2026
 
-## Tasks to be carried out this week:
+**Content:**
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-|-----|------|------------|-----------------|-------------------|
-| 1 | Create custom VPC with CIDR blocks | 11/05/2026 | 11/05/2026 | VPC Guide |
-| 2 | Create public and private subnets<br>Configure route tables | 12/05/2026 | 14/05/2026 | AWS Docs |
-| 3-4 | Set up NAT gateway and test connectivity | 15/05/2026 | 17/05/2026 | VPC Architecture |
+- Tìm hiểu Amazon S3, EBS và EFS.
+- Tạo S3 Bucket và quản lý dữ liệu.
+- Triển khai Static Website trên S3.

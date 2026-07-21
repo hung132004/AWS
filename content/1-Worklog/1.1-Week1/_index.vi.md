@@ -6,18 +6,12 @@ chapter: false
 pre: " <b> 1.1 </b> "
 ---
 
-# Tóm tắt Tuần 1
+# Tuần 1
 
-Trong tuần này tôi tập trung vào làm quen đội nhóm, quy định thực tập và các khái niệm AWS cơ bản. Tôi học cách sử dụng AWS Console và CLI, đồng thời bắt đầu nhận diện các nhóm dịch vụ đám mây.
+**Ngày:** 20/4/2026 - 26/4/2026
 
-## Mục tiêu Tuần 1
+**Nội dung:**
 
-- Kết nối và làm quen với các thành viên của First Cloud AI Journey
-- Hiểu biết về các dịch vụ AWS cơ bản, cách sử dụng console & CLI
-
-## Các nhiệm vụ cần hoàn thành trong tuần
-
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|------|----------|--------------|-----------------|------------------|
-| 2 | Làm quen với các thành viên FCAJ<br>Đọc và ghi chú các quy tắc và quy định đơn vị thực tập | 20/04/2026 | 20/04/2026 | - |
-| 3 | Tìm hiểu về AWS và các loại dịch vụ:<br>+ Tính toán<br>+ Lưu trữ | 21/04/2026 | 26/04/2026 | AWS Docs |
+- Tham gia buổi định hướng thực tập.
+- Tìm hiểu tổng quan về AWS và điện toán đám mây.
+- Làm quen với AWS Console.

@@ -6,16 +6,12 @@ chapter: false
 pre: " <b> 1.7 </b> "
 ---
 
-# Mục tiêu Tuần 7:
+# Tuần 7
 
-- Hiểu biết về Lambda functions và serverless computing
-- Tìm hiểu về event-driven architecture
-- Thực hành tạo và kiểm tra Lambda functions
+**Ngày:** 01/06/2026 – 07/06/2026
 
-## Các nhiệm vụ cần hoàn thành trong tuần:
+**Nội dung:**
 
-| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
-|------|----------|--------------|-----------------|------------------|
-| 1 | Tạo Lambda function bằng Python/Node.js | 01/06/2026 | 01/06/2026 | Hướng dẫn Lambda |
-| 2 | Cấu hình triggers và kiểm tra function | 02/06/2026 | 04/06/2026 | AWS Docs |
-| 3-4 | Tích hợp với S3 và API Gateway | 05/06/2026 | 07/06/2026 | Kiến trúc Serverless |
+- Tìm hiểu kiến trúc Serverless.
+- Thực hành AWS Lambda và API Gateway.
+- Xây dựng API đơn giản.

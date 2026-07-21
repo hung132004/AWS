@@ -6,16 +6,12 @@ chapter: false
 pre: " <b> 1.3 </b> "
 ---
 
-# Week 3 Objectives:
+# Week 3
 
-- Understand S3 bucket creation and management
-- Learn about object versioning and lifecycle policies
-- Practice uploading and managing files
+**Date:** 04/05/2026 – 10/05/2026
 
-## Tasks to be carried out this week:
+**Content:**
 
-| Day | Task | Start Date | Completion Date | Reference Material |
-|-----|------|------------|-----------------|-------------------|
-| 1 | Create S3 bucket and configure permissions | 04/05/2026 | 04/05/2026 | S3 Guide |
-| 2 | Upload files and test access control | 05/05/2026 | 06/05/2026 | AWS Docs |
-| 3-4 | Enable versioning and lifecycle policies<br>Test object management | 07/05/2026 | 10/05/2026 | S3 Best Practices |
+- Tìm hiểu Amazon EC2.
+- Tạo và cấu hình EC2 Instance.
+- Cài đặt Web Server trên EC2.
