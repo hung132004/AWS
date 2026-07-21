@@ -3,15 +3,18 @@ title: "Week 5"
 date: 2024-01-01
 weight: 5
 chapter: false
-pre: " <b> 1.5 </b> "
+pre: " <b> 5 </b> "
 ---
 
-# Week 5
+# Week 5 Worklog
 
 **Date:** 18/05/2026 – 24/05/2026
 
-**Content:**
+This week focused on the main AWS activities listed below.
 
-- Tìm hiểu Amazon VPC.
-- Cấu hình Subnet, Route Table và Internet Gateway.
-- Thiết lập Security Group và Network ACL.
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 1 | - Learn VPC architecture and components | 18/05/2026 | 18/05/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 2 | - Configure subnets, route tables, and IGW | 19/05/2026 | 20/05/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 3 | - Set up security groups and network ACLs | 20/05/2026 | 21/05/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |
+| 4 | - Test network connectivity and policies | 22/05/2026 | 24/05/2026 | [https://cloudjourney.awsstudygroup.com/](https://cloudjourney.awsstudygroup.com/) |

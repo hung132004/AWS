@@ -10,24 +10,19 @@ pre: " <b> 1. </b> "
 
 > **Warning:** The information below is for reference purposes only. Please do not copy verbatim for your report, including this warning.
 
-On this page, you will introduce your worklog. How did you complete it? How many weeks did you take to complete the program? What did you do in those weeks?
+This section summarizes the weekly internship worklog from Week 1 to Week 12.
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+## Weekly pages
 
-- Week 1: Getting familiar with AWS and basic AWS services
-- Week 2: Practicing key AWS services and understanding cloud fundamentals
-- Week 3: Building the project flow and starting implementation
-
-1. [Week 1](1.1-Week1/)
-2. [Week 2](1.2-Week2/)
-3. [Week 3](1.3-Week3/)
-4. [Week 4](1.4-Week4/)
-5. [Week 5](1.5-Week5/)
-6. [Week 6](1.6-Week6/)
-7. [Week 7](1.7-Week7/)
-8. [Week 8](1.8-Week8/)
-9. [Week 9](1.9-Week9/)
-10. [Week 10](1.10-Week10/)
-11. [Week 11](1.11-Week11/)
-12. [Week 12](1.12-Week12/)
-
+- [Week 1 Worklog](./1.1-Week1/)
+- [Week 2 Worklog](./1.2-Week2/)
+- [Week 3 Worklog](./1.3-Week3/)
+- [Week 4 Worklog](./1.4-Week4/)
+- [Week 5 Worklog](./1.5-Week5/)
+- [Week 6 Worklog](./1.6-Week6/)
+- [Week 7 Worklog](./1.7-Week7/)
+- [Week 8 Worklog](./1.8-Week8/)
+- [Week 9 Worklog](./1.9-Week9/)
+- [Week 10 Worklog](./1.10-Week10/)
+- [Week 11 Worklog](./1.11-Week11/)
+- [Week 12 Worklog](./1.12-Week12/)
