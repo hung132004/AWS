@@ -19,7 +19,7 @@ description = "FCJ Cloud Journey Internship Report"
 
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 30/07/2026
 
 ![Ảnh đại diện của bạn](/AWS/images/avatar.png)
 

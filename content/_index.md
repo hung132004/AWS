@@ -19,7 +19,7 @@ description = "FCJ Cloud Journey Internship Report"
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 20/04/2026 to 30/07/2026
 
 ![Your profile picture](/AWS/images/avatar.png)
 
