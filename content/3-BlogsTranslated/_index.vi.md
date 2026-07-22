@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Bài viết được dịch
+
 
 Phần này chứa các bài blog thực tập đã được dịch, gồm ba bài tập trung vào việc thiết lập tài khoản AWS, các dịch vụ core và phát triển serverless.
 

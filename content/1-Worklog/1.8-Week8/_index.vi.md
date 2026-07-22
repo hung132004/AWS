@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 8 </b> "
 ---
 
-# Tuần 8
+# Nhật ký công việc tuần 8
 
 **Ngày:** 08/06/2026 – 14/06/2026
 

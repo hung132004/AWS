@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-# Translated Blogs
+
 
 This section contains my internship blog summaries, translated and organized into three focused articles covering AWS account setup, core services, and serverless development.
 

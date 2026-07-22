@@ -1,84 +1,68 @@
 ---
-title: "Internship Report"
+title: "Sharing and Feedback"
 date: 2024-01-01
-weight: 1
+weight: 7
 chapter: false
+pre: " <b> 7. </b> "
 ---
 
-    
+## Internship Reflection
 
+The internship program provided me with valuable exposure to cloud computing technologies and modern software development practices. Before starting the project, I spent time understanding the AWS ecosystem, including cloud concepts, security principles, networking, storage, compute services, and deployment workflows. Step by step, I gained confidence in using AWS services and understanding how they cooperate to build a complete application.
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+My primary task during the internship was to design and implement the **Campus IT Support Ticket Portal**, a serverless web application that allows students and staff to submit IT support requests while providing administrators with tools to monitor and manage tickets efficiently. Instead of focusing only on programming, I also learned how to analyze requirements, design system architecture, configure cloud resources, and verify that each component worked correctly with the others.
 
-### Student Information:
-&emsp; **Full Name:** Nguyen Van Thanh Hung
+The application was developed using a serverless architecture, which reduced infrastructure management and allowed each AWS service to perform a dedicated responsibility. The frontend was deployed using **AWS Amplify Hosting**, while user authentication and authorization were handled by **Amazon Cognito**. Client requests were processed through **Amazon API Gateway**, business logic was implemented with **AWS Lambda**, and application data was stored in **Amazon DynamoDB**. File attachments were uploaded to **Amazon S3**, email notifications were delivered through **Amazon SES**, and system monitoring was performed using **Amazon CloudWatch**. Security and service permissions were managed through **AWS IAM**.
 
-&emsp; **Phone Number:** 0336807167
+Working with this architecture helped me understand that developing a cloud application requires much more than connecting services together. Every component must be configured correctly, secured with appropriate permissions, tested thoroughly, and monitored continuously to ensure reliability. I also realized the importance of designing a clear data flow before implementation because changes made to one service often affect several other components.
 
-&emsp; **Email:** hungtheng2004@gmail.com
+## Skills and Knowledge Acquired
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+Throughout the internship, I improved both my technical knowledge and practical development skills.
 
-&emsp; **Major:** Information Technology
+- Learned how to deploy and update static web applications using AWS Amplify Hosting.
+- Understood user authentication, authorization, and JWT token validation with Amazon Cognito.
+- Gained experience configuring HTTP APIs and integrating them with AWS Lambda through Amazon API Gateway.
+- Implemented CRUD operations for ticket management using Lambda functions.
+- Learned how DynamoDB stores NoSQL data efficiently and how to organize application records.
+- Practiced uploading, retrieving, and managing files securely with Amazon S3.
+- Implemented email notification workflows using Amazon SES.
+- Used Amazon CloudWatch to monitor application logs, identify runtime errors, and troubleshoot backend services.
+- Applied IAM roles and policies to control communication between AWS services while following security best practices.
+- Improved GitHub version control, documentation writing with Hugo, and deployment management throughout the project.
 
-&emsp; **Class:** 22DTHE3
+## Challenges Encountered
 
-&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
+Although the project architecture was well planned, several challenges appeared during implementation. One of the biggest difficulties was integrating multiple AWS services into a single workflow. Authentication, API Gateway, Lambda functions, DynamoDB, and S3 all depended on correct configurations, making troubleshooting more complex whenever one component failed.
 
-&emsp; **Internship Position:** FCJ Cloud Intern
+Permission management was another challenge. Incorrect IAM policies occasionally prevented Lambda functions from accessing DynamoDB, S3, or SES. Solving these problems required careful review of execution roles, resource policies, and AWS documentation to identify missing permissions without granting unnecessary access.
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+Debugging serverless applications also required a different approach compared to traditional applications. Since there was no dedicated server, I relied heavily on CloudWatch Logs to trace requests, inspect Lambda execution results, verify API Gateway responses, and identify configuration issues. This experience significantly improved my ability to analyze distributed systems.
 
-![Your profile picture](/AWS/images/avatar.png)
+Another challenge involved maintaining project documentation. As the architecture evolved and new features were added, diagrams, workshop documentation, implementation guides, and weekly reports also needed continuous updates. Keeping all documents synchronized required careful planning and attention to detail.
 
-### Report Content
+## Personal Evaluation
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [Translated Blogs](3-BlogsTranslated/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+Overall, I believe the internship greatly enhanced my understanding of cloud computing and serverless application development. The combination of self-study, practical implementation, and mentor guidance helped me strengthen both my technical foundation and my ability to solve real-world problems independently.
 
----
+Beyond technical skills, I also improved several professional competencies, including time management, technical communication, documentation writing, and project organization. Learning to divide large tasks into smaller milestones made the development process more efficient and easier to manage.
 
-## Sharing and Feedback
+The internship also showed me the importance of continuous learning. AWS provides a wide range of services, and each project introduces new technologies and best practices. This experience motivated me to continue exploring cloud-native development and improve my knowledge of scalable and secure application design.
 
-### Overall Evaluation
+## Future Improvements
 
-**1. Working Environment**
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+If I continue developing this project, I would like to enhance several areas to make the system more practical and feature-rich.
 
-**2. Support from Mentor / Team Admin**
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+- Develop a more comprehensive analytics dashboard with charts and reports.
+- Improve the ticket filtering system by adding advanced search options and multiple conditions.
+- Implement role-based activity logs to record administrator operations.
+- Enhance notification features by supporting additional communication channels.
+- Strengthen security through more detailed IAM policies and additional validation mechanisms.
+- Optimize system performance and reduce operational costs by reviewing resource configurations and usage patterns.
+- Expand the documentation with deployment guides, troubleshooting examples, and maintenance procedures.
 
-**3. Relevance of Work to Academic Major**
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+## Final Thoughts
 
-**4. Learning & Skill Development Opportunities**
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+Completing this internship has been an important milestone in my learning journey. It allowed me to apply academic knowledge in a practical environment while gaining experience with cloud technologies that are widely used in industry. More importantly, I developed a better understanding of how modern applications are designed, deployed, secured, and maintained using AWS services.
 
-**5. Company Culture & Team Spirit**
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
-
-**6. Internship Policies / Benefits**
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
-
----
-
-### Additional Questions
-
-- What did you find **most satisfying** during your internship?
-- What do you think the company **should improve** for future interns?
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?
-
----
-
-### Suggestions & Expectations
-
-- Do you have any suggestions to improve the internship experience?
-- Would you like to continue this program in the future?
-- Any other comments (free sharing):
+The knowledge and experience gained throughout this internship have increased my confidence in building cloud-based applications and prepared me for future opportunities in software engineering and cloud computing. I sincerely appreciate the support and guidance provided by the mentors throughout the program, and I believe the lessons learned during this internship will continue to benefit my academic studies and professional career.

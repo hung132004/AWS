@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="545dded2-0cc3-47df-8dcb-4701cbaa9981" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/content/2-Proposal/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/2-Proposal/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/2-Proposal/_index.vi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/2-Proposal/_index.vi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.1-Workshop-overview/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.1-Workshop-overview/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.2-Prerequiste/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.2-Prerequiste/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.3-S3-vpc/5.3.1-create-gwe/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.3-S3-vpc/5.3.1-create-gwe/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.3-S3-vpc/5.3.2-test-gwe/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.3-S3-vpc/5.3.2-test-gwe/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.3-S3-vpc/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.3-S3-vpc/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.1-prepare/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.1-prepare/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.2-create-interface-enpoint/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.2-create-interface-enpoint/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.3-test-endpoint/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.3-test-endpoint/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.4-dns-simulation/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/5.4.4-dns-simulation/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.4-S3-onprem/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.5-Policy/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.5-Policy/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.6-Cleanup/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/5.6-Cleanup/_index.vi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/5-Workshop/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5-Workshop/_index.vi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/5-Workshop/_index.vi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/7-Feedback/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/7-Feedback/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/7-Feedback/_index.vi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/7-Feedback/_index.vi.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="787" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3GqN8NdFa58mpUlzszCmOLcJDNN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="545dded2-0cc3-47df-8dcb-4701cbaa9981" name="Changes" comment="" />
+      <created>1784694979032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784694979032</updated>
+    </task>
+    <servers />
+  </component>
+</project>

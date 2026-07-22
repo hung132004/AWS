@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 12 </b> "
 ---
 
-# Tuần 12
+# Nhật ký công việc tuần 12
 
 **Ngày:** 06/07/2026 – 12/07/2026
 
