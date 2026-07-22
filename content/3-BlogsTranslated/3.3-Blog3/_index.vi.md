@@ -1,10 +1,12 @@
 ---
-title: "Blog 3"
-date: 2024-01-01
+title: "Học Serverless, Authentication, Monitoring và Security trên AWS"
+date: 2026-07-03
+weight: 3
 chapter: false
+pre: " <b> 3.3. </b> "
 ---
 
-# Học Serverless, Authentication, Monitoring và Security trên AWS
+
 
 Sau khi đã thực hành các dịch vụ AWS core, tôi bắt đầu chuyển sang phần serverless để phục vụ project Campus IT Support Ticket Portal. Đây là giai đoạn tôi học được nhiều nhất, vì các dịch vụ không còn đứng riêng lẻ nữa mà phải kết nối thành một luồng hoàn chỉnh: frontend gọi API, API xác thực token, backend xử lý logic, dữ liệu lưu vào database, file lưu vào storage và lỗi được theo dõi qua log.
 
@@ -32,9 +34,12 @@ Một việc nhỏ nhưng quan trọng ở cuối quá trình học là cleanup 
 
 Sau khi nối được các phần này lại với nhau, tôi hiểu hơn cách một ứng dụng cloud hoạt động end-to-end. Đây cũng là phần giúp tôi viết workshop rõ hơn, vì mỗi bước triển khai đều có lý do cụ thể chứ không chỉ là làm theo hướng dẫn: deploy frontend, cấu hình đăng nhập, tạo API, viết backend, lưu dữ liệu, kiểm thử user/admin, xem log và cleanup tài nguyên.
 
-### Tài liệu tham khảo
-- AWS Lambda Developer Guide: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html
-- Amazon API Gateway REST API documentation: https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-rest-api.html
-- Amazon Cognito Developer Guide: https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
-- What is Amazon DynamoDB?: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
-- Sending Lambda logs to CloudWatch Logs: https://docs.aws.amazon.com/lambda/latest/dg/monitoring-cloudwatchlogs.html
+Link bài blog đã đăng: [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2219706598794300/)
+
+## Tài liệu tham khảo
+
+- [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [Amazon API Gateway REST API documentation](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-rest-api.html)
+- [Amazon Cognito Developer Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html)
+- [What is Amazon DynamoDB?](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+- [Sending Lambda logs to CloudWatch Logs](https://docs.aws.amazon.com/lambda/latest/dg/monitoring-cloudwatchlogs.html)

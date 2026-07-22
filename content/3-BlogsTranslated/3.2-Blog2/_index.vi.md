@@ -1,10 +1,12 @@
 ---
-title: "Blog 2"
-date: 2024-01-01
+title: "Thực hành các dịch vụ AWS core: EC2, S3, VPC và Database"
+date: 2026-07-02
+weight: 2
 chapter: false
+pre: " <b> 3.2. </b> "
 ---
 
-# Thực hành các dịch vụ AWS core: EC2, S3, VPC và Database
+
 
 Sau khi đã quen hơn với tài khoản AWS và giao diện console, tôi chuyển sang thực hành các dịch vụ core. Đây là giai đoạn tôi bắt đầu thấy AWS không còn là một danh sách dịch vụ rời rạc, mà là nhiều mảnh ghép có thể kết hợp với nhau để tạo thành một hệ thống. Những dịch vụ tôi tập trung nhiều nhất gồm EC2, S3, VPC, Security Group, IAM và database như RDS/Aurora.
 
@@ -30,9 +32,12 @@ Sau khi thực hành các dịch vụ core, tôi có cái nhìn rõ hơn về t�
 
 Giai đoạn này tạo nền tốt để tôi chuyển sang serverless. Khi đã hiểu compute truyền thống, storage, network và database, tôi dễ hình dung hơn vì sao các dịch vụ như API Gateway, Lambda, Cognito, DynamoDB, S3 và CloudWatch có thể kết hợp thành một ứng dụng hoàn chỉnh.
 
-### Tài liệu tham khảo
-- Amazon EC2 User Guide: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
-- What is Amazon S3?: https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
-- What is Amazon VPC?: https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
-- Amazon RDS User Guide: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
-- Amazon Aurora User Guide: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html
+Link bài blog đã đăng: [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2219703182127975/)
+
+## Tài liệu tham khảo
+
+- [Amazon EC2 User Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
+- [What is Amazon S3?](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
+- [What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+- [Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html)
+- [Amazon Aurora User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html)

@@ -1,37 +1,39 @@
 ---
-title: "Blog 1"
-date: 2024-01-01
+title: "Learning AWS from Account Setup, IAM, and Cost Control"
+date: 2026-07-01
+weight: 1
 chapter: false
+pre: " <b> 3.1. </b> "
 ---
 
-# Learning AWS from account setup, IAM, and cost control
+When I first started learning AWS, I thought the hardest part would be deploying a system on the cloud. After the first few practice sessions, I realized that the first things I needed to do well were much more basic: setting up the account correctly, knowing which region I was using, checking where billing information was shown, and avoiding overly broad permissions.
 
-When I first started learning AWS, I thought the hardest part would be deploying a system successfully on the cloud. However, after a few early practice sessions, I realized that the first thing to do well is actually something very basic: creating an account correctly, understanding the region I am using, knowing where to check costs, and avoiding overly broad permissions for resources.
+My first step was signing in to the AWS Management Console and getting used to the interface. At the beginning, the console felt confusing because there were many services, and each service had its own dashboard and terminology. I tried searching for services such as EC2, S3, IAM, Billing, and CloudWatch until I became more familiar with where they were located. One small habit that helped me later was checking the region in the top-right corner before creating resources. There were times when I could not find a resource, and the reason was simply that I was looking in the wrong region.
 
-The first thing I did was log in to the AWS Management Console and get familiar with the interface. At first, I was quite confused because the console contains many services, and each service has its own dashboard and naming conventions. I had to try finding services such as EC2, S3, IAM, Billing, and CloudWatch to become familiar with their locations. One small habit that helped me avoid mistakes later was always checking the region in the top-right corner before creating any resource. There were times when I could not find a resource, and only later realized that I was viewing the wrong region.
+After getting used to the console, I started paying more attention to the Billing Dashboard. I think this is something every student learning AWS should check regularly. In a local environment, a wrong configuration usually costs time. In the cloud, creating resources and forgetting to remove them can create real charges. Because of that, I built a habit of checking Billing, Free Tier usage, and the list of resources I created after each practice session.
 
-After getting familiar with the console, I began paying more attention to the Billing Dashboard. This is something I believe students learning AWS should check regularly. When working locally, misconfigurations usually only waste time to fix. On the cloud, however, if resources are created and then forgotten, costs can accumulate quickly. Therefore, I developed the habit of checking Billing, Free Tier, and the list of resources I created after each practice session.
+During the learning process, I noticed that some services can generate cost easily if they are not managed carefully, such as EC2 instances, NAT Gateways, Load Balancers, Route 53 domains, or long-term stored data. I did not use all of these services in my final project, but knowing about them early made me more careful when following workshops or documentation. For me, cost control became part of learning cloud responsibly, not just an extra administrative task.
 
-During the learning process, I noticed that some services are especially prone to generating fees if not managed carefully, such as EC2 instances, NAT Gateways, Load Balancers, Route 53 domains, or long-term storage. I have not used all of these in my final project, but knowing about them in advance helped me be more careful when following workshops or tutorials. To me, cost control is no longer a secondary concern; it is part of responsible cloud learning.
+The next topic I studied was IAM. At first, IAM felt a bit dry because many concepts sounded similar: users, groups, roles, and policies. It took me some time to understand that a user represents a person or identity, a group helps manage permissions for multiple users, a role is often used by AWS services, and a policy describes what actions are allowed. Once I understood these concepts, the principle of least privilege made much more sense.
 
-The next part I studied was IAM. At first, IAM felt dry because it contains many similar concepts: user, group, role, and policy. I spent time understanding the difference between a user (the identity of a person or application), a group (used to manage permissions for multiple users), a role (often used by services), and a policy (the document that defines what actions are allowed). Once I understood these concepts, I saw why AWS strongly emphasizes the principle of least privilege.
+While practicing, there were moments when I wanted to grant broad permissions just to make things work faster. However, when I connected this to my Ticket Portal project, I saw why that was not a good approach. For example, if a Lambda function only needs to read and write ticket data in DynamoDB, it should not have Administrator access. If Lambda only uploads attachments to one S3 bucket, its role should be limited to that bucket and the required actions. Learning IAM early helped me see security as part of the design, not something to add at the end.
 
-In practice, there were moments when I wanted to grant broad permissions to make things faster. However, when I connected this to the Ticket Portal project, I realized that this was not a good approach. For example, if a Lambda function only needs to read and write tickets in a DynamoDB table, it should not have full Administrator privileges. If the function only uploads attachment files to a specific S3 bucket, the role should be limited to that bucket. Learning IAM early helped me see security as part of design, not as a last-minute step at the end of the project.
+I also practiced creating EC2 instances to understand traditional compute on AWS. When launching an instance, I had to choose an AMI, instance type, key pair, security group, and network settings. These steps helped me understand how a virtual server is configured in AWS. Even though my final project used more serverless services, EC2 was still worth learning because it gave me a foundation for comparing traditional compute with Lambda.
 
-I also practiced creating EC2 instances to understand traditional compute on AWS. When creating an instance, I had to choose the AMI, instance type, key pair, security group, and network. These steps helped me understand how a virtual server on AWS is configured. Although my final project used serverless services more heavily, EC2 remains an important topic because it provides the foundation for comparing it with Lambda.
+One small issue I faced while learning EC2 was an incorrect security group configuration, which prevented me from accessing the instance as expected. From that issue, I learned that creating a resource does not mean it is ready to use immediately. Network rules, ports, inbound traffic, and access permissions all affect the result. Small mistakes like this helped me remember the lesson better than only reading documentation.
 
-One small mistake I encountered while learning EC2 was misconfiguring the security group, which prevented me from accessing the instance as expected. From that experience, I understood that creating a resource is not enough; network rules, ports, inbound traffic, and access permissions all directly affect the outcome of the practice. Mistakes like this helped me remember the lesson much better than simply reading documentation.
+Besides the foundation services, I also explored Amazon Bedrock briefly. I did not use Bedrock as a core service in my project, but it helped me see that AWS is not only about infrastructure such as servers, storage, and databases. AWS also provides higher-level managed services for modern application development and AI.
 
-In addition to foundational services, I also briefly explored Amazon Bedrock. I did not use Bedrock as the main service in my project, but this helped me see that AWS is not only about infrastructure such as servers, storage, or databases. AWS also offers many managed services at a higher level that support modern applications and AI-driven use cases.
+After this first stage, my main takeaway was that learning AWS should not start by rushing through many services at once. It is better to first understand how to use the account safely, check costs, understand IAM, and navigate the console. These tasks may sound simple, but skipping them can lead to confusing problems later when working on a bigger project.
 
-After this early stage, the main lesson I learned is that learning AWS should not begin by using too many services at once. First, we need to learn how to use an account safely, check costs, understand IAM, and operate confidently in the console. These things may seem simple, but if ignored, they can easily lead to hard-to-manage issues in larger projects.
+For me, this stage became the foundation of the rest of the internship. After becoming more comfortable with the console, Billing, and IAM, I was more confident moving into core services such as EC2, S3, VPC, RDS, and later serverless services for the Campus IT Support Ticket Portal project.
 
-To me, this stage is like building the foundation. Once I became comfortable with the console, learned to check Billing, and understood the basics of IAM, I felt much more confident moving on to core services such as EC2, S3, VPC, RDS, and then serverless services for the Campus IT Support Ticket Portal project.
+Published blog post link: [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2219698898795070/)
 
-### References
-- https://docs.aws.amazon.com/whitepapers/latest/aws-overview/getting-started-with-aws.html
-- https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html
-- https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html
-- https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
-- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+## References
 
+- [Getting started with AWS](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/getting-started-with-aws.html)
+- [AWS Management Console](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html)
+- [AWS Billing and Cost Management](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)
+- [Security best practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+- [Amazon EC2 User Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)

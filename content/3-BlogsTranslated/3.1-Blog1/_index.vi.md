@@ -1,12 +1,12 @@
 ---
-title: "Blog 1"
-date: 2024-01-01
+title: "Học AWS từ tạo tài khoản, IAM và kiểm soát chi phí"
+date: 2026-07-01
+weight: 1
 chapter: false
+pre: " <b> 3.1. </b> "
 ---
 
-# Học AWS từ tạo tài khoản, IAM và kiểm soát chi phí
-
-Khi mới bắt đầu học AWS, tôi từng nghĩ phần khó nhất sẽ là triển khai được một hệ thống chạy trên cloud. Nhưng sau vài buổi đầu thực hành, tôi nhận ra việc đầu tiên cần làm tốt lại là những thứ rất cơ bản: tạo tài khoản đúng cách, hiểu region mình đang dùng, biết nơi kiểm tra chi phí và không cấp quyền quá rộng cho tài nguyên.
+Khi mới bắt đầu học AWS, tôi từng nghĩ phần khó nhất sẽ là triển khai được một hệ thống chạy trên cloud. Nhưng sau vài buổi đầu thực hành, tôi nhận ra việc đầu tiên cần làm tốt lại là những thứ rất cơ bản: tạo tài khoản đúng cách, hiểu region mình đang dùng, biết chỗ kiểm tra chi phí và không cấp quyền quá rộng cho tài nguyên.
 
 Việc đầu tiên tôi làm là đăng nhập vào AWS Management Console và làm quen với giao diện. Lúc đầu tôi khá rối vì console có rất nhiều dịch vụ, mỗi dịch vụ lại có dashboard và cách đặt tên riêng. Tôi phải thử tìm từng dịch vụ như EC2, S3, IAM, Billing và CloudWatch để quen dần vị trí của chúng. Một việc nhỏ nhưng giúp tôi tránh nhầm về sau là luôn nhìn lại region ở góc trên bên phải trước khi tạo tài nguyên. Có lúc tôi tìm một resource không thấy, sau đó mới biết mình đang xem sai region.
 
@@ -28,9 +28,12 @@ Sau giai đoạn đầu, điều tôi rút ra là học AWS không nên bắt đ
 
 Với tôi, giai đoạn này giống như bước chuẩn bị nền. Sau khi đã quen console, biết kiểm tra Billing và hiểu cơ bản về IAM, tôi tự tin hơn khi chuyển sang các dịch vụ core như EC2, S3, VPC, RDS và sau đó là các dịch vụ serverless cho project Campus IT Support Ticket Portal.
 
-### Tài liệu tham khảo
-- https://docs.aws.amazon.com/whitepapers/latest/aws-overview/getting-started-with-aws.html
-- https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html
-- https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html
-- https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html
-- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html
+Link bài blog đã đăng: [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2219698898795070/)
+
+## Tài liệu tham khảo
+
+- [Getting started with AWS](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/getting-started-with-aws.html)
+- [AWS Management Console](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html)
+- [AWS Billing and Cost Management](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)
+- [Security best practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+- [Amazon EC2 User Guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
