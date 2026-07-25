@@ -32,6 +32,13 @@ During my internship, I participated in two events. Each one was a memorable exp
 
 &emsp;**Role:** Attendee  
 
----
+### [Event 2](4.2-Event2/)  
+&emsp;**Event Name:** Agentic AI Build Week: Show Up. Build. Pitch. Win  
 
-  
+&emsp;**Date & Time:** 08:30, July 25, 2026  
+
+&emsp;**Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee
+
+---
