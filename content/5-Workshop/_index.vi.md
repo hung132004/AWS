@@ -23,7 +23,7 @@ Hệ thống sử dụng kiến trúc serverless trên AWS. Frontend tích hợp
 Lambda xử lý nghiệp vụ ticket, kiểm tra quyền truy cập, xử lý tệp đính kèm và tích hợp với **Amazon DynamoDB** cùng **Amazon S3**. Hệ thống cũng sử dụng **Amazon SES**, **Amazon CloudWatch**, **AWS IAM** và các thành phần cập nhật thời gian thực như DynamoDB Streams và WebSocket API.
 
 {{< project-image
-src="images/5-Workshop/5.2-System-Architecture/architecture.jpg"
+src="images/5-Workshop/5.2-System-Architecture/Architecture.jpg"
 alt="Kiến trúc Campus IT Support Ticket Portal"
 caption="Kiến trúc Campus IT Support Ticket Portal"
 >}}

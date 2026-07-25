@@ -91,7 +91,7 @@ Dự án sử dụng các công nghệ và dịch vụ sau:
 Logo sử dụng tên **Campus Support – Helpdesk Portal**, thể hiện mục đích xây dựng một cổng hỗ trợ kỹ thuật tập trung dành cho môi trường trường học.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/project-logo.png"
+src="images/5-Workshop/5.1-Project-overview/project-logo.png"
 alt="Logo Campus IT Support Ticket Portal"
 caption="Hình 5.1.1: Logo của Campus IT Support Ticket Portal."
 >}}
@@ -105,7 +105,7 @@ Khi chưa đăng nhập, người dùng có thể xem thông tin giới thiệu 
 Giao diện hiển thị biểu mẫu gửi yêu cầu hỗ trợ, khu vực nhập thông tin sự cố và các gợi ý giúp người dùng cung cấp đủ dữ liệu cho đội ngũ IT.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/guest-homepage.png"
+src="images/5-Workshop/5.1-Project-overview/guest-homepage.png"
 alt="Giao diện trang chủ khi chưa đăng nhập"
 caption="Hình 5.1.2: Giao diện trang chủ khi người dùng chưa đăng nhập."
 >}}
@@ -119,7 +119,7 @@ Sau khi đăng nhập thành công thông qua Amazon Cognito, thông tin tài kh
 Một số trường trong biểu mẫu có thể được tự động điền dựa trên thông tin của người dùng đã xác thực. Người dùng có thể gửi ticket, xem các yêu cầu đã tạo và nhận cập nhật trạng thái mà không cần tải lại trang.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/user-homepage.png"
+src="images/5-Workshop/5.1-Project-overview/user-homepage.png"
 alt="Giao diện người dùng sau khi đăng nhập"
 caption="Hình 5.1.3: Giao diện người dùng sau khi đăng nhập thành công."
 >}}
@@ -140,7 +140,7 @@ Quản trị viên có thể tìm kiếm và lọc ticket theo trạng thái, m�
 Danh sách ticket được lấy từ Amazon DynamoDB thông qua Amazon API Gateway và AWS Lambda.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/admin-dashboard.png"
+src="images/5-Workshop/5.1-Project-overview/admin-dashboard.png"
 alt="Dashboard quản trị viên"
 caption="Hình 5.1.4: Dashboard quản trị và danh sách ticket."
 >}}
