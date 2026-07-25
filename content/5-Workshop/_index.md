@@ -23,7 +23,7 @@ The system uses a serverless architecture on AWS. The frontend communicates with
 Lambda handles ticket operations, authorization checks, attachment processing, and integration with **Amazon DynamoDB** and **Amazon S3**. The system also uses **Amazon SES**, **Amazon CloudWatch**, **AWS IAM**, and real-time notification components such as DynamoDB Streams and WebSocket API.
 
 {{< project-image
-src="images/5-Workshop/5.2-System-Architecture/architecture.jpg"
+src="images/5-Workshop/5.2-System-Architecture/Architecture.jpg"
 alt="Campus IT Support Ticket Portal Architecture"
 caption="Campus IT Support Ticket Portal Architecture"
 >}}

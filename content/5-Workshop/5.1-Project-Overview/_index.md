@@ -91,7 +91,7 @@ The project uses the following technologies and services:
 The project uses the name **Campus Support – Helpdesk Portal**, representing a centralized technical support portal for an educational environment.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/project-logo.png"
+src="images/5-Workshop/5.1-Project-overview/project-logo.png"
 alt="Campus IT Support Ticket Portal logo"
 caption="Figure 5.1.1: Campus IT Support Ticket Portal logo."
 >}}
@@ -105,7 +105,7 @@ Before authentication, users can view the system introduction and access the sig
 The interface displays the support request form, issue-information fields, and guidance to help users provide sufficient information to the IT support team.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/guest-homepage.png"
+src="images/5-Workshop/5.1-Project-overview/guest-homepage.png"
 alt="Guest homepage interface"
 caption="Figure 5.1.2: Homepage interface before user authentication."
 >}}
@@ -119,7 +119,7 @@ After successfully signing in through Amazon Cognito, the authenticated account 
 Some form fields can be automatically populated using the authenticated user's information. Users can submit tickets, view previously submitted requests, and receive status updates without reloading the page.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/user-homepage.png"
+src="images/5-Workshop/5.1-Project-overview/user-homepage.png"
 alt="Authenticated user interface"
 caption="Figure 5.1.3: User interface after successful authentication."
 >}}
@@ -140,7 +140,7 @@ Administrators can search and filter tickets by status, priority, or issue categ
 Ticket data is retrieved from Amazon DynamoDB through Amazon API Gateway and AWS Lambda.
 
 {{< project-image
-src="images/5-Workshop/5.1-Project-Overview/admin-dashboard.png"
+src="images/5-Workshop/5.1-Project-overview/admin-dashboard.png"
 alt="Administrator dashboard"
 caption="Figure 5.1.4: Administrator dashboard and ticket-management interface."
 >}}
